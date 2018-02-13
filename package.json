@@ -1,13 +1,14 @@
 {
   "name": "credstash-set",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "preferGlobal": true,
   "bin": {
-    "cs-set": "index.js"
+    "cs-set": "./index.js"
   },
   "author": "",
   "license": "ISC",
