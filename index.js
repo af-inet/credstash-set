@@ -5,7 +5,7 @@ const fs = require('fs')
 const {blue, red} = require('chalk')
 const dotenv = require('dotenv')
 const exec = util.promisify(require('child_process').exec)
-const [tableName, envFilePath, shouldOver] = process.argv.slice(2, 4)
+const [tableName, envFilePath] = process.argv.slice(2, 4)
 const info = msg => console.info(blue(msg))
 const error = err => console.info(red(err))
 
